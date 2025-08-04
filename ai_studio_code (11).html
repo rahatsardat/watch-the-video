@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page Title -->
+    <title>Watch the video</title>
+
+    <!-- =================================================================== -->
+    <!-- == Facebook Open Graph (OG) Meta Tags (সবচেয়ে গুরুত্বপূর্ণ অংশ) == -->
+    <!-- এই ট্যাগগুলোর কারণেই ফেসবুকে লিঙ্কটি ভিডিওর মতো দেখাবে -->
+    <!-- =================================================================== -->
+    <meta property="og:title" content="Watch the video" />
+    <meta property="og:description" content="ভিডিওটি দেখতে এখনই প্লে বাটনে ক্লিক করুন!" />
+    <meta property="og:type" content="video.other" />
+    
+    <!-- এই URL টি আপনার হোস্টিং করা ফাইলের লিঙ্ক দিয়ে পরিবর্তন করতে পারেন -->
+    <meta property="og:url" content="https://your-website.com/page.html" /> 
+    
+    <!-- এই ছবিটি ফেসবুক প্রিভিউতে দেখাবে (ইউটিউব থাম্বনেইলের মতো) -->
+    <meta property="og:image" content="https://i.ibb.co/R9Jp1W5/youtube-preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <!-- =================================================================== -->
+
+    <style>
+        /* CSS for Styling the Page */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Dark Background */
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .video-link img {
+            width: 200px; /* YouTube Logo Size */
+            max-width: 50vw;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .video-link:hover img {
+            transform: scale(1.1); /* Hover Effect */
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #aaaaaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Page Title -->
+        <h1>Watch the video</h1>
+        
+        <!-- Clickable YouTube Logo with your link -->
+        <a href="https://remarkillustration.com/vsnrrkqbrb?key=875a394a0867b7d59e2cb13e1f009402" class="video-link" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="YouTube Logo">
+        </a>
+        
+        <p>ভিডিওটি প্লে করতে লোগোতে ক্লিক করুন</p>
+    </div>
+
+</body>
+</html>
